@@ -1,3 +1,3 @@
 # calculadora-relogio-de-ponto-next
 
-Calculadora de relógio de ponto, desenvolvida em Next.js
+Calculadora de horas trabalhadas (relógio de ponto), desenvolvida com Next.js e Styled Components.
