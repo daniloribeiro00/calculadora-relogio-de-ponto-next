@@ -29,7 +29,7 @@ export const Container = styled.main`
 			align-items: center;
 			justify-content: center;
 			margin: 2rem;
-			gap: 2.5rem;
+			gap: 3rem;
 		}
 
 		.period {
@@ -37,11 +37,15 @@ export const Container = styled.main`
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			gap: 0.5rem;
+			gap: 0.8rem;
 
 			span {
 				font-size: 1rem;
-                font-weight: 400;
+				font-weight: 400;
+				width: 100%;
+				text-align: center;
+				border-bottom: 1px solid #ccc;
+				padding-bottom: 0.8rem;
 			}
 		}
 
@@ -50,18 +54,18 @@ export const Container = styled.main`
 			flex-direction: row;
 			align-items: center;
 			justify-content: center;
-			gap: 1rem;
+			gap: 1.5rem;
 
 			div {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
-				gap: 0.3rem;
+				gap: 0.8rem;
 
 				label {
 					font-size: 0.9rem;
-                    font-weight: 400;
+					font-weight: 400;
 				}
 
 				input {
@@ -74,7 +78,7 @@ export const Container = styled.main`
 					align-items: center;
 					justify-content: center;
 					font-size: 1rem;
-                    font-weight: 400;
+					font-weight: 400;
 					text-align: center;
 					padding: 1rem;
 
@@ -99,8 +103,8 @@ export const Container = styled.main`
 		margin-top: 2rem;
 		border-top: 1px solid #ccc;
 
+		width: 100%;
 		.result {
-			width: 100vh;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -115,7 +119,29 @@ export const Container = styled.main`
 
 			span {
 				background: #eee;
-				font-size: 1.5rem;
+				font-size: 1.7rem;
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	@media (max-width: 800px) {
+		form {
+			.content {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+
+	@media (max-width: 480px) {
+		.total {
+			.result {
+				flex-direction: row;
 			}
 		}
 	}
@@ -123,7 +149,7 @@ export const Container = styled.main`
 
 export const Buttons = styled.div`
 	button {
-		width: 7rem;
+		width: 10rem;
 		height: 2rem;
 		border: 0;
 		border-radius: 1rem;
@@ -134,7 +160,7 @@ export const Buttons = styled.div`
 
 		&:hover {
 			filter: brightness(0.8);
-			width: 10rem;
+			width: 13rem;
 		}
 
 		&:focus {

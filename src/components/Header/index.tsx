@@ -7,7 +7,7 @@ export const Header = () => {
 	return (
 		<Container>
 			<Image src={logo} alt='Calculadora de Horas de Relógio de Ponto' />
-			<h1>Calculadora de Horas Trabalhas (Relógio de Ponto)</h1>
+			<h1>Calculadora de Horas Trabalhadas (Relógio de Ponto)</h1>
 		</Container>
 	);
 };
