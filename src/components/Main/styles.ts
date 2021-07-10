@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.main`
 	margin: 3rem auto 0 auto;
 	padding: 6rem;
-	background: #fff;
+	background: #eee;
 	border-radius: 1rem;
 	padding: 2rem;
 	padding-bottom: 0;
@@ -41,6 +41,7 @@ export const Container = styled.main`
 
 			span {
 				font-size: 1rem;
+                font-weight: 400;
 			}
 		}
 
@@ -60,6 +61,7 @@ export const Container = styled.main`
 
 				label {
 					font-size: 0.9rem;
+                    font-weight: 400;
 				}
 
 				input {
@@ -72,6 +74,7 @@ export const Container = styled.main`
 					align-items: center;
 					justify-content: center;
 					font-size: 1rem;
+                    font-weight: 400;
 					text-align: center;
 					padding: 1rem;
 
@@ -111,14 +114,7 @@ export const Container = styled.main`
 			}
 
 			span {
-				width: 5rem;
-				height: 2rem;
-				border: 0;
-				border-radius: 1rem;
-				background: #fff;
-				display: flex;
-				align-items: center;
-				justify-content: center;
+				background: #eee;
 				font-size: 1.5rem;
 			}
 		}

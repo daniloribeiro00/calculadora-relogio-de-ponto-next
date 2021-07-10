@@ -49,11 +49,11 @@ export const Main = () => {
 						<div className='inputs'>
 							<div>
 								<label>Entrada 1</label>
-								<input type='time' name='entrada1' />
+								<input type='time' name='entrada1' required />
 							</div>
 							<div>
 								<label>Saída 1</label>
-								<input type='time' name='saida1' />
+								<input type='time' name='saida1' required />
 							</div>
 						</div>
 					</div>
@@ -62,11 +62,11 @@ export const Main = () => {
 						<div className='inputs'>
 							<div>
 								<label>Entrada 2</label>
-								<input type='time' name='entrada2' />
+								<input type='time' name='entrada2' required />
 							</div>
 							<div>
 								<label>Saída 2</label>
-								<input type='time' name='saida2' />
+								<input type='time' name='saida2' required />
 							</div>
 						</div>
 					</div>
