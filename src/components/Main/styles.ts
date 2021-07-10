@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-	margin: 3rem auto 0 auto;
+	margin: 3rem auto 3rem auto;
 	padding: 6rem;
 	background: #eee;
 	border-radius: 1rem;
