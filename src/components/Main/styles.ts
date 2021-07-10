@@ -67,7 +67,7 @@ export const Container = styled.main`
 				input {
 					width: 7rem;
 					height: 2rem;
-					border: 1px solid #ddd;
+					border: 1px solid #ccc;
 					border-radius: 1rem;
 					background: #fff;
 					display: flex;
@@ -97,7 +97,7 @@ export const Container = styled.main`
 
 	.total {
 		margin-top: 2rem;
-		border-top: 1px solid #ddd;
+		border-top: 1px solid #ccc;
 
 		.result {
 			width: 100vh;
