@@ -7,7 +7,7 @@ export const Container = styled.main`
 	border-radius: 1rem;
 	padding: 2rem;
 	padding-bottom: 0;
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -63,7 +63,7 @@ export const Container = styled.main`
 				}
 
 				input {
-					width: 5rem;
+					width: 7rem;
 					height: 2rem;
 					border: 1px solid #ddd;
 					border-radius: 1rem;
@@ -72,17 +72,24 @@ export const Container = styled.main`
 					align-items: center;
 					justify-content: center;
 					font-size: 1rem;
+					text-align: center;
+					padding: 1rem;
+
+					&:focus {
+						outline: none;
+						border: 1px solid #007ecc;
+					}
 				}
 			}
 		}
 
-        .message {
-            color: red;
-            font-size: 0.85rem;
-            font-weight: 600;
-            position: absolute;
-            top: 470px;
-        }
+		.message {
+			color: red;
+			font-size: 0.85rem;
+			font-weight: 600;
+			position: absolute;
+			top: 470px;
+		}
 	}
 
 	.total {
@@ -132,6 +139,11 @@ export const Buttons = styled.div`
 		&:hover {
 			filter: brightness(0.8);
 			width: 10rem;
+		}
+
+		&:focus {
+			outline: none;
+			border: 1px solid #007ecc;
 		}
 	}
 `;
