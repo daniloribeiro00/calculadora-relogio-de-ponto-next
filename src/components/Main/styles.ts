@@ -1,7 +1,46 @@
 import styled from 'styled-components';
 
+export const Selection = styled.div`
+	margin: 1.5rem auto 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+
+	h2 {
+		font-size: 1.7rem;
+		font-weight: 400;
+		color: #fff;
+	}
+
+	form {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+
+		div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5rem;
+
+			input {
+				border: 0;
+			}
+
+			label {
+				margin-top: 0.2rem;
+				font-size: 1rem;
+				font-weight: 400;
+				color: #fff;
+			}
+		}
+	}
+`;
+
 export const Container = styled.main`
-	margin: 3rem auto 3rem auto;
+	margin: 1.5rem auto 3rem auto;
 	padding: 6rem;
 	background: #eee;
 	border-radius: 1rem;
@@ -94,8 +133,7 @@ export const Container = styled.main`
 			color: red;
 			font-size: 0.85rem;
 			font-weight: 600;
-			position: absolute;
-			top: 470px;
+			margin-top: 1rem;
 		}
 	}
 
