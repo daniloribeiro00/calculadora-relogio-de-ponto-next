@@ -47,9 +47,16 @@ export const Selection = styled.div`
 		flex-direction: column;
 
 		form {
+			gap: 0.5rem;
+
 			div {
 				margin-left: 1rem;
 				margin-right: 1rem;
+
+				input {
+					width: 30px;
+					height: 30px;
+				}
 			}
 		}
 	}
