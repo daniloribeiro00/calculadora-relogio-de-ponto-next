@@ -131,7 +131,7 @@ export const Main = () => {
 			{selecionarModo ? (
 				<Container>
 					<form onSubmit={handleSubmit1}>
-						<h2>Calcular Horário de Término da Jornada:</h2>
+						<h2>Horário de Término da Jornada:</h2>
 						<div className='content'>
 							<div className='period'>
 								<span>Manhã</span>
@@ -187,7 +187,7 @@ export const Main = () => {
 			) : (
 				<Container>
 					<form onSubmit={handleSubmit2}>
-						<h2>Calcular Total de Horas Trabalhadas:</h2>
+						<h2>Total de Horas Trabalhadas:</h2>
 						<div className='content'>
 							<div className='period'>
 								<span>Manhã</span>

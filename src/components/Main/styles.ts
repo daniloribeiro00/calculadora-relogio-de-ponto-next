@@ -37,6 +37,15 @@ export const Selection = styled.div`
 			}
 		}
 	}
+
+	@media (max-width: 1200px) {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	@media (max-width: 800px) {
+		flex-direction: column;
+	}
 `;
 
 export const Container = styled.main`
