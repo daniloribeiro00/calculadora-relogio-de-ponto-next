@@ -26,4 +26,10 @@ export const Container = styled.header`
 			font-size: 2rem;
 		}
 	}
+
+	@media (max-width: 800px) {
+		h1 {
+			font-size: 1.6rem;
+		}
+	}
 `;
