@@ -45,6 +45,13 @@ export const Selection = styled.div`
 
 	@media (max-width: 800px) {
 		flex-direction: column;
+
+		form {
+			div {
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
+		}
 	}
 `;
 
