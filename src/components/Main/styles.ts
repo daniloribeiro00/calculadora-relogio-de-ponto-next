@@ -163,8 +163,8 @@ export const Container = styled.main`
 	.total {
 		margin-top: 2rem;
 		border-top: 1px solid #ccc;
-
 		width: 100%;
+
 		.result {
 			display: flex;
 			flex-direction: column;
@@ -203,6 +203,11 @@ export const Container = styled.main`
 		.total {
 			.result {
 				flex-direction: row;
+				justify-content: space-between;
+
+				h2 {
+					font-size: 1.2rem;
+				}
 			}
 		}
 	}
